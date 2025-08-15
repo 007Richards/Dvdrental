@@ -1,6 +1,5 @@
-/* ---------------------------------------------------------------------------------
- * --------------------------- DQL - Data Query Languaje ---------------------------
- * by Ivan Alducin
+/* 
+by Ricardo Fabian
  */
 
 
@@ -133,4 +132,5 @@ WHERE customer_id IN (
 				FROM rental
 				GROUP BY customer_id 
 				HAVING COUNT(*) > 1
+
 )
