@@ -2,7 +2,6 @@
 by Ricardo Fabian
  */
 
-
 --1. Vamos a seleccionar el nombre y apellido de los actores
 SELECT a.first_name, a.last_name
 FROM actor a
@@ -134,3 +133,4 @@ WHERE customer_id IN (
 				HAVING COUNT(*) > 1
 
 )
+
